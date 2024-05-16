@@ -1,0 +1,20 @@
+.option-heading {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "Roboto";
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+@media screen and(min-width:768px) {
+  .option-heading {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+.active-option {
+  color: red;
+  font-weight: bold;
+  text-decoration: underline;
+}
